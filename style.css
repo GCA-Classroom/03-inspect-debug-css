@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eceff1;
+  margin: 0;
+  padding: 0;
+}
+
+.post-card {
+  width: 350px;
+  background-color: #fff;
+  margin: 40px auto;
+  border-radius: 8px;
+  overflow: visible;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+}
+
+.post-image {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  display: block;
+}
+
+.post-content {
+  padding: 5px;
+  text-align: justify;
+}
+
+h3.post-title {
+  font-family: "Roboto", sans-serif;
+  font-family: "Impact", serif;
+  color: #333;
+  margin: 2px;
+}
+
+.like-button {
+  padding: 2px 4px;
+  background-color: #2196f3;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+button.hover {
+  background-color: #1976d2;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive;
+}
