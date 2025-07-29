@@ -10,46 +10,46 @@ body {
   background-color: #fff;
   margin: 40px auto;
   border-radius: 8px;
-  overflow: visible;
+  overflow: hidden;
   padding: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   box-sizing: content-box;
 }
 
 .post-image {
-  width: 700px;
-  height: 400px;
+  width: 100%;
   object-fit: cover;
   border-radius: 8px 8px 0 0;
   display: block;
 }
 
 .post-content {
-  padding: 5px;
-  text-align: justify;
+  padding: 20px;
+  line-height: 1.4;
 }
 
 h3.post-title {
-  font-family: "Roboto", sans-serif;
-  font-family: "Impact", serif;
   color: #333;
-  margin: 2px;
+  font-size: 24px;
+  margin: 0 0 20px;
 }
 
 .like-button {
-  padding: 2px 4px;
+  padding: 10px 20px;
+  font-size: 18px;
   background-color: #2196f3;
-  background-color: gray;
   color: #fff;
   border: none;
   border-radius: 0px;
   cursor: pointer;
 }
 
-button.hover {
+.like-button:hover {
   background-color: #1976d2;
 }
 
-body {
-  font-family: "Comic Sans MS", cursive;
+strong {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
 }
